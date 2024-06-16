@@ -1,2 +1,16 @@
+Nome do Projeto: To Do List
+Objetivo: Desenvolver uma aplicação de lista de tarefas que permita adicionar, visualizar, marcar como concluídas e excluir tarefas.
+Tecnologias Utilizadas: Python, SQLite
 
-Aprender a ser um desenvolvedor front-end envolve uma combinação de habilidades técnicas, ferramentas de desenvolvimento, boas práticas de design e um entendimento sólido das necessidades dos usuários. Manter-se atualizado com as últimas tendências e tecnologias também é crucial em um campo que evolui rapidamente.
+to_do_list/
+├── main.py            # Arquivo principal da aplicação
+├── db_operations.py   # Funções para manipulação do banco de dados
+└── create_db.py       # Script para criação do banco de dados
+
+O projeto "To Do List" é uma aplicação de linha de comando desenvolvida para gerenciar tarefas pessoais. 
+Os usuários podem adicionar novas tarefas, visualizar a lista de tarefas, marcar tarefas como concluídas e excluir tarefas.
+ O armazenamento persistente das tarefas é gerenciado por um banco de dados SQLite.
+
+ python create_db.py | Execute o script create_db.py para criar o banco de dados
+
+ python main.py  | Executando a Aplicação
